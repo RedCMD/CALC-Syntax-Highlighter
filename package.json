@@ -1,0 +1,50 @@
+{
+	"name": "calc-syntax-highlighter",
+	"displayName": "CALC Syntax Highlighting",
+	"description": "Syntax Highlighting for Comparator Arithmetic Logic Calculator",
+	"publisher": "RedCMD",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"icon": "images/R4WLYX_128.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RedCMD/CALC-Syntax-Highlighter.git"
+	},
+	"keywords": [
+		"R4WLYX",
+		"redstone",
+		"minecraft",
+		"CALC"
+	],
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "calc",
+				"aliases": [
+					"Comparator Arithmetic Logic Calculator"
+				],
+				"extensions": [
+					".asc",
+					".smc"
+				],
+				"configuration": "./language-configuration.json",
+				"icon": {
+					"dark": "images/R4WLYX_icon.svg",
+					"light": "images/R4WLYX_icon.svg"
+				}
+			}
+		],
+		"grammars": [
+			{
+				"language": "calc",
+				"scopeName": "source.calc",
+				"path": "./syntaxes/calc.tmLanguage.json"
+			}
+		]
+	}
+}

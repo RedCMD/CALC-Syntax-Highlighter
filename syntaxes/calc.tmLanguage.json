@@ -1,0 +1,40 @@
+{
+	"version": "https://github.com/RedCMD/CALC-Syntax-Highlighter.git",
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"scopeName": "source.calc",
+	"name": "Comparator Arithmetic Logic Calculator",
+	"patterns": [
+		{ "include": "#define" },
+		{ "include": "#label" },
+		{ "include": "#register" },
+		{ "include": "#instruction" },
+		{ "include": "#numeric" },
+		{ "include": "#comma" }
+	],
+	"repository": {
+		"define": {
+			"match": "(?<=^\\s*)(?i:def\\b|#)",
+			"name": "keyword.control.calc"
+		},
+		"label": {
+			"match": "\\b\\w+:",
+			"name": "support.function.calc"
+		},
+		"instruction": {
+			"match": "\\b(?i:ADD|BRH|CAL|DLY|DSO|GTI|HLT|JMP|LDI|LDM|NOP|RTN|SFT|STR|SUB)\\b",
+			"name": "keyword.calc"
+		},
+		"register": {
+			"match": "\\b[rR]\\d+\\b",
+			"name": "variable.calc"
+		},
+		"numeric": {
+			"match": "\\b(?i:0x)?\\h+\\b",
+			"name": "constant.numeric.calc"
+		},
+		"comma": {
+			"match": ",",
+			"name": "punctuation.separator.comma.calc"
+		}
+	}
+}

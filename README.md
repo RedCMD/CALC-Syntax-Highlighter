@@ -1,4 +1,4 @@
-# CALC-Syntax-Highlighter  
+# CALC Syntax Highlighter  
 VSCode Syntax Highlighter for Comparator Arithmetic Logic Calculator (CALC) by R4WLYX  
 
 
