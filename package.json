@@ -3,7 +3,7 @@
 	"displayName": "CALC Syntax Highlighting",
 	"description": "Syntax Highlighting for Comparator Arithmetic Logic Calculator",
 	"publisher": "RedCMD",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.47.0"
 	},
@@ -46,5 +46,11 @@
 				"path": "./syntaxes/calc.tmLanguage.json"
 			}
 		]
+	},
+	"__metadata": {
+		"id": "e1325fb3-57c3-4d7a-a707-44f11f1a19c7",
+		"publisherDisplayName": "RedCMD",
+		"publisherId": "6d229866-9775-4c10-9f86-f22eaa70eb66",
+		"isPreReleaseVersion": false
 	}
 }
