@@ -21,7 +21,7 @@
 			"name": "support.function.calc"
 		},
 		"instruction": {
-			"match": "\\b(?i:ADD|BRH|CAL|DLY|DSO|GTI|HLT|JMP|LDI|LDM|NOP|RTN|SFT|STR|SUB)\\b",
+			"match": "\\b(?i:MSC|JMP|BRH|CAL|RTN|LDI|LDM|STR|ADD|SUB|SFT|LDP|WRP)\\b",
 			"name": "keyword.calc"
 		},
 		"register": {
